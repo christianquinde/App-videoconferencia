@@ -1,0 +1,11 @@
+------------------------------------------------------------
+Client connecting to 10.8.0.3, UDP port 8001
+Sending 1470 byte datagrams, IPG target: 2940.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.8.0.2 port 49164 connected with 10.8.0.3 port 8001
+read failed: Connection refused
+[  3] WARNING: did not receive ack of last datagram after 1 tries.
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 5.0 sec  2.38 MBytes  4.00 Mbits/sec
+[  3] Sent 1701 datagrams

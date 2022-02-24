@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>528</width>
+    <height>306</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bienvenida</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>166</x>
+     <y>219</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>Christian Quinde</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>157</x>
+     <y>198</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Mono</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Ingresar Nombre y Apellido:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Btn_ingresar">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>250</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 15px;
+background-color: rgb(157, 41, 91);
+color: rgb(255, 255, 255);
+
+</string>
+   </property>
+   <property name="text">
+    <string>Ingresar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1_2">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>130</y>
+     <width>491</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>URW Bookman</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>TESIS - Sistema de Comunicación Resiliente para Escenarios de Emergencia</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>250</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>8</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Astudillo Paúl Quinde Christian</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="photo1">
+   <property name="geometry">
+    <rect>
+     <x>204</x>
+     <y>30</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>cuenca2-removebg.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fondo_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>531</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>diseno/Fondo2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>fondo_2</zorder>
+  <zorder>photo1</zorder>
+  <zorder>name</zorder>
+  <zorder>label1</zorder>
+  <zorder>Btn_ingresar</zorder>
+  <zorder>label1_2</zorder>
+  <zorder>label1_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
