@@ -1,4 +1,7 @@
 # App-videoconferencia
+
+Esta herramienta se diseñó mediante scripts de Linux para cumplir con las distintas funcionalidades y los experimentos se efectuaron en ordenadores con sistema operativo Ubuntu 20.04. Para efectuar los diferentes cálculos también se implementaron scripts en Python 3.7. 
+
 Esta es una herramienta para transmitir y reproducir audio y video utilizando GStreamer. Para la transmisión de audio y video en tiempo real con una interfaz gráfica, la misma que reúne las características de reuniones individuales y la capacidad de video adaptativo. La herramienta funciona
 en conjunto con un servidor disponible en https://github.com/christianquinde/server
 
