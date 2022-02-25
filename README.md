@@ -1,9 +1,5 @@
 # App-videoconferencia
-Herramienta para transmitir y reproducir audio y video utilizando GStreamer.
-
-Siguiendo un esquema parecido a aplicaciones como Zoom o Google Meet, se desarrolló una herramienta
-para la transmisión de audio y video en tiempo real con una sencilla interfaz y facilidad de uso. La misma que,
-reúne las características de reuniones individuales y la capacidad de video adaptativo. La herramienta funciona
+Esta es una herramienta para transmitir y reproducir audio y video utilizando GStreamer. Para la transmisión de audio y video en tiempo real con una interfaz gráfica, la misma que reúne las características de reuniones individuales y la capacidad de video adaptativo. La herramienta funciona
 en conjunto con un servidor disponible en https://github.com/christianquinde/server
 
 En la siguiente Figura se presenta un diagrama secuencial del funcionamiento de la herramienta para la transmisión
